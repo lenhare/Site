@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+@import '~bulma/sass/utilities/initial-variables';
+@import "../node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
+@import "../node_modules/bulma-extensions/dist/css/bulma-extensions.min.css";
+
+
+$navbar-height: ($navbar-padding-vertical * 2);
+$divider-thickness: 1px;
+$divider-color: $blue;
+
+body{
+    margin: 0;
+}
+
+@import '~bulma/bulma';
